@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif;
+  }
+
+  
+.background {
+    background-image: url('bg2.png'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.back {
+    background-image: url('bg2.png'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+h1 {
+    color: #b191ec;
+    font-size: 80px;
+    font-weight: 900;
+    margin-right: 50px;
+}
+
+h4{
+    color: darkgrey;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+p{
+    color: rgb(94, 94, 94);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.image-container {
+    display: flex;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 500px;
+    margin-left: 100px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+#linkedin-icon,
+#github-icon {
+    width: 40px;
+    margin-left: 1px;
+    margin-top: 10px;
+}
+
+#linkedin-icon
+{
+    margin-right: 10px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+
+.skills
+{
+    width: 500px;
+    height: 400px;
+    background-color:rgb(239, 235, 235);
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 75px;
+}
+
+.projects
+{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(239, 235, 235);;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 100px;
+}
+
+.scroll-icon {
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 80px;
+    text-align: center;
+    align-content: center;
+}
+
+h2{
+    color: #b191ec;
+}
+
+p{
+    color: rgb(94, 94, 94);
+}
+
+#scroll {
+    width: 30px;
+    margin-right: 90px;
+    height: auto;
+
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 16px;
+        }
+
+    p {
+        font-size: 14px;
+    }
+
+    #linkedin-icon,
+    #github-icon {
+        width: 15px;
+    }
+
+    #logo {    
+        max-width: 200px;
+    }
+
+    #scroll-icon {
+        width: 15px;
+    }
+
+    .skills-square,
+    .projects-square {
+        max-width: 120px;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+}
